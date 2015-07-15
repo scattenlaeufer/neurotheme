@@ -289,7 +289,7 @@ div.lcp_excerpt {
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 	color: #373737;
-	color: #f00;
+	color: #ff0;
 }
 #access ul li:hover > ul {
 	display: block;
