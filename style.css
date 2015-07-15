@@ -19,11 +19,11 @@ License URI: license.txt
 /* Top Menu */
 
 div.top_menu {
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0;
 	background-color: #5eaeff;
-	height: 25px;
+	/*height: 25px;*/
 }
 
 div.top_menu ul {
@@ -58,6 +58,12 @@ div.top_menu a:active {
 
 div.menu-top-menu-container {
 	display: inline-block;
+}
+
+@media (max-width: 800px) {
+	div.top_menu {
+		width: auto;
+	}
 }
 
 /* Search Form */
@@ -289,7 +295,6 @@ div.lcp_excerpt {
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
 	color: #373737;
-	color: #ff0;
 }
 #access ul li:hover > ul {
 	display: block;
@@ -307,13 +312,13 @@ div.lcp_excerpt {
 	 font-weight: normal;
 	/*display: block;*/
 }
-#access li:hover > ul a,
+#access li:hover a,
 #access ul a:focus,
-#access .current-menu-item > ul a,
-#access .current-menu-ancestor > ul a,
-#access .current_page_item > ul a,
-#access .current_page_ancestor > ul a {
-	 font-weight: bold;
+#access .current-menu-item  ul a,
+#access .current-menu-ancestor  ul a,
+#access .current_page_item  ul a,
+#access .current_page_ancestor  ul a {
+	 font-weight: normal;
 	 background: #f9f9f9;
 	/*display: block;*/
 }
