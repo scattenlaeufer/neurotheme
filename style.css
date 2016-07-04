@@ -66,6 +66,12 @@ div.menu-top-menu-container {
 	}
 }
 
+/* Entry Tilte */
+
+.singular .entry-title {
+	font-size: 27px;
+}
+
 /* Search Form */
 
 #searchform {
